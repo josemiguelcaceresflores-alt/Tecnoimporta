@@ -6,136 +6,46 @@
   <title>Tecnoimporta Bolivia | Inyectores y Audífonos</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
-
-    body { 
-      font-family: 'Poppins', sans-serif; 
-      margin: 0; 
-      padding: 0; 
-      background: linear-gradient(135deg, #f0f4f8, #e3f2fd); 
-      color: #333; 
-    }
-    
-    header { 
-      background: linear-gradient(135deg, #1e3a8a, #3b82f6); 
-      color: white; 
-      text-align: center; 
-      padding: 40px 20px; 
-      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-    }
-    
-    .container { 
-      max-width: 1100px; 
-      margin: 0 auto; 
-      padding: 20px; 
-    }
-    
-    .product { 
-      background: white; 
-      border-radius: 20px; 
-      padding: 25px; 
-      margin: 30px 0; 
-      box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
-      transition: all 0.3s ease;
-    }
-    
-    .product:hover { 
-      transform: translateY(-10px); 
-      box-shadow: 0 15px 30px rgba(0,0,0,0.15); 
-    }
-    
-    img { 
-      max-width: 100%; 
-      border-radius: 15px; 
-      margin: 15px 0; 
-      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    }
-    
-    .price { 
-      font-size: 28px; 
-      font-weight: 700; 
-      color: #e11d48; 
-    }
-    
-    .btn-whatsapp { 
-      display: inline-block; 
-      background: linear-gradient(135deg, #25D366, #22c55e); 
-      color: white; 
-      padding: 16px 35px; 
-      text-decoration: none; 
-      border-radius: 50px; 
-      font-weight: 600; 
-      font-size: 18px; 
-      margin: 15px 0;
-      box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4);
-      transition: all 0.3s;
-    }
-    
-    .btn-whatsapp:hover {
-      transform: scale(1.05);
-      background: linear-gradient(135deg, #22c55e, #25D366);
-    }
-    
-    .floating-whatsapp {
-      position: fixed; 
-      bottom: 25px; 
-      right: 25px; 
-      background: #25D366; 
-      color: white;
-      width: 70px; 
-      height: 70px; 
-      border-radius: 50%; 
-      display: flex; 
-      align-items: center;
-      justify-content: center; 
-      font-size: 35px; 
-      box-shadow: 0 8px 20px rgba(37, 211, 102, 0.5);
-      z-index: 1000; 
-      text-decoration: none;
-    }
-    
-    h2 { color: #1e40af; margin-bottom: 10px; }
+    body { font-family: 'Poppins', sans-serif; margin: 0; padding: 0; background: linear-gradient(135deg, #f0f4f8, #e3f2fd); color: #333; }
+    header { background: linear-gradient(135deg, #1e3a8a, #3b82f6); color: white; text-align: center; padding: 40px 20px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+    .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+    .product { background: white; border-radius: 20px; padding: 25px; margin: 30px 0; box-shadow: 0 10px 25px rgba(0,0,0,0.1); transition: all 0.3s; }
+    .product:hover { transform: translateY(-10px); box-shadow: 0 15px 30px rgba(0,0,0,0.15); }
+    img { max-width: 100%; border-radius: 15px; margin: 15px 0; box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+    .price { font-size: 28px; font-weight: 700; color: #e11d48; }
+    .btn-whatsapp { display: inline-block; background: linear-gradient(135deg, #25D366, #22c55e); color: white; padding: 16px 35px; text-decoration: none; border-radius: 50px; font-weight: 600; font-size: 18px; margin: 15px 0; box-shadow: 0 5px 15px rgba(37, 211, 102, 0.4); }
+    .floating-whatsapp { position: fixed; bottom: 25px; right: 25px; background: #25D366; color: white; width: 70px; height: 70px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 35px; box-shadow: 0 8px 20px rgba(37, 211, 102, 0.5); z-index: 1000; text-decoration: none; }
   </style>
 </head>
 <body>
 
   <header>
     <h1>🚗 TECNOIMPORTA BOLIVIA</h1>
-    <p style="font-size: 20px; margin-top: 10px;">Repuestos de Calidad • Tecnología Premium • Santa Cruz</p>
+    <p style="font-size: 20px;">Repuestos de Calidad • Santa Cruz de la Sierra</p>
   </header>
 
   <div class="container">
-
-    <h2 style="text-align:center; font-size: 32px; margin: 30px 0;">Nuestros Productos Destacados</h2>
+    <h2 style="text-align:center; font-size: 32px; margin: 30px 0;">Nuestros Productos</h2>
 
     <!-- Inyectores -->
     <div class="product">
-      <h2>🚗 Inyectores Toyota Corolla 1.8 - Motor 1ZZ-FE</h2>
-      
+      <h2>🚗 Inyectores Toyota Corolla 1ZZ-FE</h2>
       <img src="https://raw.githubusercontent.com/josemiguelcaceresflores-alt/Tecnoimporta/main/inyectores-mano.jpg" alt="Inyectores en mano">
       <img src="https://raw.githubusercontent.com/josemiguelcaceresflores-alt/Tecnoimporta/main/inyectores-4.jpg" alt="Juego de 4 inyectores">
-      
-      <p><strong>✅ Estilo Denso Original • Probados en banco de inyectores</strong></p>
-      <p>Funciona perfectamente en gasolina y vehículos a Gas Natural<br>
-         Flujo y pulverización verificados • Garantía 30 días</p>
-      <p class="price">Bs. 799 <small style="font-size:18px;">(juego completo de 4)</small></p>
-      <a href="https://wa.me/59172688864?text=Hola%20quiero%20los%20inyectores%20Toyota%20Corolla" class="btn-whatsapp">🛒 Comprar por WhatsApp</a>
+      <p><strong>✅ Estilo Denso • Probados en banco de inyectores</strong></p>
+      <p class="price">Bs. 799 <small>(juego de 4)</small></p>
+      <a href="https://wa.me/591" class="btn-whatsapp">🛒 Comprar por WhatsApp</a>
     </div>
 
     <!-- Audífonos -->
     <div class="product">
-      <h2>🎧 Audífonos Inalámbricos con Cancelación de Ruido ANC</h2>
-      
+      <h2>🎧 Audífonos Inalámbricos con ANC</h2>
       <img src="https://raw.githubusercontent.com/josemiguelcaceresflores-alt/Tecnoimporta/main/audifonos-anc.jpg" alt="Audífonos ANC">
-      
-      <p>✅ Sonido Premium • Batería de larga duración • Cómodos y ligeros</p>
       <p class="price">Bs. 450 - 750</p>
-      <a href="https://wa.me/59172688864?text=Hola%20quiero%20los%20audífonos%20ANC" class="btn-whatsapp">🛒 Comprar por WhatsApp</a>
+      <a href="https://wa.me/59172688864" class="btn-whatsapp">🛒 Comprar por WhatsApp</a>
     </div>
-
   </div>
 
-  <!-- Botón flotante WhatsApp -->
   <a href="https://wa.me/59172688864" class="floating-whatsapp" target="_blank">💬</a>
-
 </body>
 </html>
